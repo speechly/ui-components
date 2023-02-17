@@ -18,25 +18,30 @@
 
 # Speechly voice form components for React
 
-![build](https://img.shields.io/github/actions/workflow/status/speechly/speechly/build.yaml?branch=main&logo=github)
+![build](https://img.shields.io/github/actions/workflow/status/speechly/ui-components/build.yaml?branch=main&logo=github)
 [![npm](https://img.shields.io/npm/v/@speechly/react-voice-forms?color=cb3837&logo=npm)](https://www.npmjs.com/package/@speechly/react-voice-forms)
 [![license](http://img.shields.io/:license-mit-blue.svg)](/LICENSE)
 
 Ready made form components that can be controlled with voice, tap, pointer and keyboard. Voice form components are an experimental feature.
 
-Also check out the [full documentation](https://docs.speechly.com/client-libraries/voice-forms/)!
+### Documentation
+
+- [Getting started with Speechly](https://docs.speechly.com/basics/getting-started)
+- [UI components](https://dreamy-cori-a02de1.netlify.app/ui-components/voice-forms/) (Docs)
+- [API reference](./docs/README.md) (GitHub)
 
 ### Usage
 
-Add `@speechly/react-voice-forms` dependency to the project:
+Install Speechly React Client and Speechly React voice form components:
 
-```
-npm i @speechly/react-voice-forms
+```bash
+npm install @speechly/react-client
+npm install @speechly/react-voice-forms
 ```
 
 Include the components:
 
-```
+```jsx
 import {
   VoiceDatePicker,
   VoiceCheckbox,
@@ -48,8 +53,10 @@ import {
 
 Place the form components inside your `SpeechProvider` block:
 
-```
-<SpeechProvider appId="YOUR_APP_ID_FROM_SPEECHLY_DASHBOARD">
+```jsx
+import { SpeechProvider } from '@speechly/react-client';
+
+<SpeechProvider appId="YOUR-APP-ID">
   <VoiceInput label="From" changeOnEntityType="from" />
 </SpeechProvider>
 ```

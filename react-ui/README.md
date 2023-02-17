@@ -18,27 +18,25 @@
 
 # Speechly React UI components
 
-![build](https://img.shields.io/github/actions/workflow/status/speechly/speechly/build.yaml?branch=main&logo=github)
+![build](https://img.shields.io/github/actions/workflow/status/speechly/ui-components/build.yaml?branch=main&logo=github)
 [![npm](https://img.shields.io/npm/v/@speechly/react-ui?color=cb3837&logo=npm)](https://www.npmjs.com/package/@speechly/react-ui)
 [![license](http://img.shields.io/:license-mit-blue.svg)](/LICENSE)
 
-Ready made Speechly [UI components](https://docs.speechly.com/client-libraries/ui-components/) to build a reactive voice interface  to a React or Next.js app.
+Ready made Speechly UI components to build a reactive voice interface to a React or Next.js app.
 
-If you want to build a custom interface for you web app, you may want to check out [react-client](https://github.com/speechly/speechly/tree/main/libraries/react-client) library for direct access to Speechly API.
+### Documentation
 
-## Before you start
+- [Getting started with Speechly](https://docs.speechly.com/basics/getting-started)
+- [UI components](https://dreamy-cori-a02de1.netlify.app/ui-components/) (Docs)
+- [API reference](./docs/README.md) (GitHub)
 
-Make sure you have created and deployed a Speechly application. Take note of the **App ID**, you'll need it shortly.
+## Getting started
 
-You'll also need a React app. Use your existing app, or create a new one using:
+You'll need a [Speechly account](https://api.speechly.com/dashboard/) and a Speechly application that's using a Conformer model. Follow our [quick start guide](https://docs.speechly.com/basics/getting-started) to get started with Speechly.
 
-```bash
-npx create-react-app my-app
-```
+## Installing
 
-## Installation
-
-Install Speechly React client and Speechly React UI components:
+Install Speechly React Client and Speechly React UI components:
 
 ```
 npm install @speechly/react-client
@@ -83,16 +81,11 @@ function App() {
 
 Start the development server:
 
-```
+```bash
 npm run start
 ```
 
 Navigate to http://localhost:3000 to see your app running!
-
-### Documentation
-
-- [API reference](https://github.com/speechly/speechly/tree/main/libraries/react-ui/docs) (GitHub)
-- [UI components](https://docs.speechly.com/ui-components/) (Docs)
 
 ## Contributing
 
