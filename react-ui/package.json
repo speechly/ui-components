@@ -15,19 +15,15 @@
     "prerelease": "pnpm run build",
     "watch": "rm -rf ./lib/ && mkdir lib && pnpx tsc-watch"
   },
-  "keywords": [
-    "speechly",
-    "ui",
-    "push-to-talk"
-  ],
   "author": "Speechly",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/speechly/react-ui.git"
+    "url": "git+https://github.com/speechly/ui-components.git",
+    "directory": "react-client"
   },
   "bugs": {
-    "url": "https://github.com/speechly/react-ui/issues"
+    "url": "https://github.com/speechly/ui-components/issues"
   },
   "devDependencies": {
     "@speechly/react-client": "^2.2.2",
@@ -62,7 +58,8 @@
     "styled-components": ">=5.3.6"
   },
   "files": [
-    "lib/**/*", "src/**/*"
+    "lib/**/*",
+    "src/**/*"
   ],
   "publishConfig": {
     "access": "public"

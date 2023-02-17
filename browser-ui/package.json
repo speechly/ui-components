@@ -10,6 +10,16 @@
     "validate": "svelte-check",
     "staging": "set -o allexport;. ./.env.local;set +o allexport && test -n \"$REACT_APP__DEPLOY_STAGING_URI\" && pnpm run build && rsync -avz --delete core/ $REACT_APP__DEPLOY_STAGING_URI"
   },
+  "author": "Speechly",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/speechly/ui-components.git",
+    "directory": "browser-client"
+  },
+  "bugs": {
+    "url": "https://github.com/speechly/ui-components/issues"
+  },
   "devDependencies": {
     "@rollup/plugin-commonjs": "^21",
     "@rollup/plugin-node-resolve": "^13",
@@ -33,7 +43,8 @@
     "@speechly/browser-client": "^2.6.3"
   },
   "files": [
-    "core/**/*","src/**/*"
+    "core/**/*",
+    "src/**/*"
   ],
   "main": "./core/index.js",
   "types": "./core/index.d.ts",

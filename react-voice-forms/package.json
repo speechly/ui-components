@@ -2,8 +2,16 @@
   "name": "@speechly/react-voice-forms",
   "version": "1.3.5",
   "description": "Speechly voice form components for React",
-  "license": "MIT",
   "author": "Speechly",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/speechly/ui-components.git",
+    "directory": "react-voice-forms"
+  },
+  "bugs": {
+    "url": "https://github.com/speechly/ui-components/issues"
+  },
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
   "dependencies": {
