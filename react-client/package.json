@@ -1,0 +1,82 @@
+{
+  "name": "@speechly/react-client",
+  "version": "2.2.2",
+  "description": "React client for Speechly Streaming API",
+  "keywords": [
+    "react",
+    "reactjs",
+    "client",
+    "voice",
+    "speech",
+    "slu",
+    "spoken language understanding",
+    "speechly",
+    "asr",
+    "nlp",
+    "natural language processing",
+    "nlu",
+    "natural language understanding",
+    "natural language",
+    "vui",
+    "voice ui",
+    "voice user interface",
+    "multimodal",
+    "speech recognition"
+  ],
+  "scripts": {
+    "getdeps": "pnpm install --force --frozen-lockfile",
+    "build": "pnpm run lint && rm -rf ./dist/ && npx tsc",
+    "build:watch": "rm -rf ./dist/ && npx tsc",
+    "lint": "npx eslint --cache --max-warnings 0 'src/**/*.{ts,tsx}'",
+    "test": "echo 'Pending...'",
+    "check": "pnpm run build && npx api-extractor run --verbose",
+    "docs": "pnpx typedoc --readme none --excludeExternals --excludePrivate --excludeProtected --out ./docs/ --entryPointStrategy expand --sort required-first --disableSources ./src/",
+    "prepdist": "node ./config/prepare_dist.js",
+    "precommit": "npx prettier --write src/**/*.ts && pnpm run build && npx api-extractor run --local && pnpm run docs",
+    "prerelease": "pnpm run check && pnpm run prepdist",
+    "watch": "rm -rf ./dist/ && mkdir dist && pnpm run prepdist && npx tsc-watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/speechly/speechly.git",
+    "directory": "libraries/react-client"
+  },
+  "bugs": {
+    "url": "https://github.com/speechly/speechly/issues"
+  },
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "author": "Speechly",
+  "license": "MIT",
+  "dependencies": {
+    "@speechly/browser-client": "^2.6.3"
+  },
+  "peerDependencies": {
+    "react": ">=16.9.0"
+  },
+  "devDependencies": {
+    "@microsoft/api-extractor": "^7",
+    "@types/react": "^18",
+    "@typescript-eslint/eslint-plugin": "^5",
+    "@typescript-eslint/parser": "^5",
+    "eslint": "^7",
+    "eslint-config-standard-with-typescript": "^16",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-react": "^7.21.3",
+    "eslint-plugin-standard": "^4.0.1",
+    "eslint-plugin-tsdoc": "^0.2.7",
+    "prettier": "^2.1.2",
+    "react": "^18",
+    "ts-loader": "^9.2.5",
+    "tsc-watch": "^4.3.5",
+    "typedoc": "^0.22.6",
+    "typedoc-plugin-markdown": "^3.11.3",
+    "typescript": "^4.6.4"
+  },
+  "files": ["dist/**/*", "src/**/*"],
+  "publishConfig": {
+    "access": "public"
+  }
+}

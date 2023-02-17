@@ -1,0 +1,154 @@
+{
+  "name": "@speechly/react-client",
+  "entries": [
+    {
+      "version": "2.2.2",
+      "tag": "@speechly/react-client_v2.2.2",
+      "date": "Tue, 31 Jan 2023 09:43:23 GMT",
+      "comments": {
+        "patch": [
+          {
+            "comment": "Update documentation"
+          }
+        ],
+        "dependency": [
+          {
+            "comment": "Updating dependency \"@speechly/browser-client\" from `^2.6.2` to `^2.6.3`"
+          }
+        ]
+      }
+    },
+    {
+      "version": "2.2.1",
+      "tag": "@speechly/react-client_v2.2.1",
+      "date": "Wed, 14 Dec 2022 12:04:27 GMT",
+      "comments": {
+        "patch": [
+          {
+            "comment": "Improved recovery after connection loss. Improved behaviour with React 18 mount, unmount, mount upon app start."
+          }
+        ],
+        "dependency": [
+          {
+            "comment": "Updating dependency \"@speechly/browser-client\" from `^2.6.1` to `^2.6.2`"
+          }
+        ]
+      }
+    },
+    {
+      "version": "2.2.0",
+      "tag": "@speechly/react-client_v2.2.0",
+      "date": "Mon, 17 Oct 2022 07:57:20 GMT",
+      "comments": {
+        "minor": [
+          {
+            "comment": "Fixed problem when calling BrowserClient.start() and stop() quickly multiple times. Stop() can be awaited to return the stopped context id."
+          }
+        ],
+        "dependency": [
+          {
+            "comment": "Updating dependency \"@speechly/browser-client\" from `^2.5.0` to `^2.6.0`"
+          }
+        ]
+      }
+    },
+    {
+      "version": "2.1.2",
+      "tag": "@speechly/react-client_v2.1.2",
+      "date": "Tue, 14 Jun 2022 14:29:09 GMT",
+      "comments": {
+        "patch": [
+          {
+            "comment": "Fix for incorrect sample rate on Fir"
+          }
+        ]
+      }
+    },
+    {
+      "version": "2.1.0",
+      "tag": "@speechly/react-client_v2.1.0",
+      "date": "Mon, 13 Jun 2022 08:05:47 GMT",
+      "comments": {
+        "minor": [
+          {
+            "comment": "react-client support for browser-client@^2"
+          }
+        ],
+        "dependency": [
+          {
+            "comment": "Updating dependency \"@speechly/browser-client\" from `^2.3.0` to `^2.4.0`"
+          }
+        ]
+      }
+    },
+    {
+      "version": "2.0.1",
+      "tag": "@speechly/react-client_v2.0.1",
+      "date": "Tue, 29 Mar 2022 11:27:59 GMT",
+      "comments": {
+        "dependency": [
+          {
+            "comment": "Updating dependency \"@speechly/browser-client\" from `1.4.0` to `1.5.0`"
+          }
+        ]
+      }
+    },
+    {
+      "version": "2.0.0",
+      "tag": "@speechly/react-client_v2.0.0",
+      "date": "Mon, 28 Feb 2022 08:02:56 GMT",
+      "comments": {
+        "major": [
+          {
+            "comment": "Exposed connect() method and client instance from browser client. Added listening property as instant source of truth, telling the if startContext has been called. Attaching event listeners before connect. Removed initialization logic that has been relocated to browser client."
+          }
+        ],
+        "dependency": [
+          {
+            "comment": "Updating dependency \"@speechly/browser-client\" from `1.3.0` to `1.4.0`"
+          }
+        ]
+      }
+    },
+    {
+      "version": "1.2.1",
+      "tag": "@speechly/react-client_v1.2.1",
+      "date": "Thu, 10 Feb 2022 14:03:08 GMT",
+      "comments": {
+        "dependency": [
+          {
+            "comment": "Updating dependency \"@speechly/browser-client\" from `1.2.0` to `1.3.0`"
+          }
+        ]
+      }
+    },
+    {
+      "version": "1.2.0",
+      "tag": "@speechly/react-client_v1.2.0",
+      "date": "Fri, 28 Jan 2022 11:38:16 GMT",
+      "comments": {
+        "minor": [
+          {
+            "comment": "Using new browser-client v1.1.0 with two JS module bundles (ES & UMD) instead of CJS."
+          }
+        ],
+        "patch": [
+          {
+            "comment": "Add sources to target build"
+          },
+          {
+            "comment": "1.1.1 with startContext, stopContext and clientState exposed"
+          },
+          {
+            "comment": "Initialize Speechly on DOM mount instead of constructor to fix server-side rendering problems"
+          }
+        ],
+        "dependency": [
+          {
+            "comment": "Updating dependency \"@speechly/browser-client\" from `>=1.1.0` to `1.2.0`"
+          }
+        ]
+      }
+    }
+  ]
+}
