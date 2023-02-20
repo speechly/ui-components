@@ -23,6 +23,8 @@ Ready-made UI components for building multimodal voice interfaces for the web.
 
 > 🚧 This project is no longer actively maintained and is looking for a maintainer. If you're interested, get in touch https://www.speechly.com/contact
 
+![image](https://user-images.githubusercontent.com/2579244/220076001-fc7e3dab-da21-4909-9891-af933a91755a.png)
+
 ## Libraries
 
 - [JavaScript UI components](./browser-ui)
