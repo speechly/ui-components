@@ -1,6 +1,6 @@
-# Next.js & Speechly React UI components example
+# Next.js & Speechly React UI Components example
 
-This app demonstrates the use of [Speechly React client]([/react-ui/](https://www.npmjs.com/package/@speechly/react-client)) and [Speechly React UI components](/react-ui/) with a Next.js project.
+This app demonstrates the use of [Speechly React Client]([/react-ui/](https://www.npmjs.com/package/@speechly/react-client)) and [Speechly React UI Components](/react-ui/) with a Next.js project.
 
 ## Getting started
 

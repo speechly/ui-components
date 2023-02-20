@@ -16,7 +16,7 @@
 <br/>
 </div>
 
-# Speechly React UI components
+# Speechly React UI Components
 
 ![build](https://img.shields.io/github/actions/workflow/status/speechly/ui-components/build.yaml?branch=main&logo=github)
 [![npm](https://img.shields.io/npm/v/@speechly/react-ui?color=cb3837&logo=npm)](https://www.npmjs.com/package/@speechly/react-ui)
@@ -36,7 +36,7 @@ You'll need a [Speechly account](https://api.speechly.com/dashboard/) and a Spee
 
 ## Installing
 
-Install Speechly React Client and Speechly React UI components:
+Install Speechly React Client and Speechly React UI Components:
 
 ```
 npm install @speechly/react-client
