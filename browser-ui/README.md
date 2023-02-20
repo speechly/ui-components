@@ -22,7 +22,7 @@
 [![npm](https://img.shields.io/npm/v/@speechly/browser-ui?color=cb3837&logo=npm)](https://www.npmjs.com/package/@speechly/browser-ui)
 [![license](http://img.shields.io/:license-mit-blue.svg)](/LICENSE)
 
-Ready made Speechly UI components to build a reactive voice interface to a web app.
+Ready-made UI components for building reactive voice interface using JavaScript and Speechly.
 
 > 🚧 This project is no longer actively maintained and is looking for a maintainer. If you're interested, get in touch https://www.speechly.com/contact
 
