@@ -28,3 +28,7 @@ Ready-made UI components for building voice interfaces.
 - [JavaScript UI components](./browser-ui)
 - [React UI components](./react-ui)
 - [React voice form components](./react-voice-forms)
+
+## Examples
+
+The [examples](/examples/) folder contains example applications for various platforms.
