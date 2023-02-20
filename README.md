@@ -19,7 +19,7 @@
 
 # Speechly UI Components
 
-Ready-made UI components for building voice interfaces.
+Ready-made UI components for building multimodal voice interfaces for the web.
 
 > 🚧 This project is no longer actively maintained and is looking for a maintainer. If you're interested, get in touch https://www.speechly.com/contact
 
