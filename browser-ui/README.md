@@ -24,6 +24,8 @@
 
 Ready made Speechly UI components to build a reactive voice interface to a web app.
 
+> 🚧 This project is no longer actively maintained and is looking for a maintainer. If you're interested, get in touch https://www.speechly.com/contact
+
 ### Documentation
 
 - [Getting started with Speechly](https://docs.speechly.com/basics/getting-started)
