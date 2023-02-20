@@ -7,21 +7,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-.openconsole {
-  font-size: 14px;
-  padding: 8px;
-  border-radius: 2px;
-  background-color: #cef;
-  color: #345;
-  margin: 2em auto;
-  max-width: 480px;
-}
-
-main {
-  display: flex;
-  flex-direction: column;
-  gap: 16px;
-  font-size: 16px;
-  margin: 2em auto;
-  max-width: 480px;
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
 }

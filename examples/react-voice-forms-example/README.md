@@ -1,6 +1,6 @@
-# Speechly React voice forms example
+# Speechly React UI Components example
 
-This project demonstrates the use of Speechly React voice form components.
+This app demonstrates the use of [Speechly React Client]([/react-ui/](https://www.npmjs.com/package/@speechly/react-client)), [Speechly React UI Components](/react-ui/) and [Speechly React voice from components](/react-voice-forms/) with a React project.
 
 ## Getting started
 
@@ -11,11 +11,11 @@ You'll need a [Speechly account](https://api.speechly.com/dashboard/) and a Spee
 Copy the example app using [degit](https://github.com/Rich-Harris/degit).
 
 ```bash
-npx degit speechly/ui-components/examples/react-voice-forms-example my-app
+npx degit speechly/ui-components/examples/react-ui-example my-app
 cd my-app
 ```
 
-Add the **App ID** of your Speechly application into `src/index.js`.
+Add the **App ID** of your Speechly application into `src/index.tsx`.
 
 ```jsx
 <SpeechProvider

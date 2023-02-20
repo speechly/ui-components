@@ -1,0 +1,12 @@
+.App {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+}
+
+.App-header {
+  margin: auto;
+  display: grid;
+  gap: 1rem;
+  min-width: 320px;
+}
