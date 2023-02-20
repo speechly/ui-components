@@ -26,11 +26,13 @@ Ready made Speechly UI components to build a reactive voice interface to a web a
 
 > 🚧 This project is no longer actively maintained and is looking for a maintainer. If you're interested, get in touch https://www.speechly.com/contact
 
-### Documentation
+![image](https://user-images.githubusercontent.com/2579244/220076001-fc7e3dab-da21-4909-9891-af933a91755a.png)
+
+## Documentation
 
 - [Getting started with Speechly](https://docs.speechly.com/basics/getting-started)
-- [UI components](https://dreamy-cori-a02de1.netlify.app/ui-components/) (Docs)
-- [API reference](./docs/index.md) (GitHub)
+- [Speechly UI components](https://dreamy-cori-a02de1.netlify.app/ui-components/)
+- [API reference](./docs/index.md)
 
 ## Getting started
 

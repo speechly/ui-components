@@ -26,13 +26,14 @@ Ready made form components that can be controlled with voice, tap, pointer and k
 
 > 🚧 This project is no longer actively maintained and is looking for a maintainer. If you're interested, get in touch https://www.speechly.com/contact
 
-### Documentation
+## Documentation
 
 - [Getting started with Speechly](https://docs.speechly.com/basics/getting-started)
-- [UI components](https://dreamy-cori-a02de1.netlify.app/ui-components/voice-forms/) (Docs)
-- [API reference](./docs/README.md) (GitHub)
+- [Voice form components](https://dreamy-cori-a02de1.netlify.app/ui-components/voice-forms/)
+- [Speechly UI components](https://dreamy-cori-a02de1.netlify.app/ui-components/)
+- [API reference](./docs/README.md)
 
-### Usage
+## Usage
 
 Install Speechly React Client and Speechly React voice form components:
 
@@ -63,7 +64,7 @@ import { SpeechProvider } from '@speechly/react-client';
 </SpeechProvider>
 ```
 
-### Styling
+## Styling
 
 Add a `voice-form-theme-mui.css` to your `src` folder, then include it in `index.tsx`:
 

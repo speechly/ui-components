@@ -29,6 +29,11 @@ Ready-made UI components for building voice interfaces.
 - [React UI components](./react-ui)
 - [React voice form components](./react-voice-forms)
 
+## Documentation
+
+- [Getting started with Speechly](https://docs.speechly.com/basics/getting-started)
+- [Speechly UI components](https://dreamy-cori-a02de1.netlify.app/ui-components/)
+
 ## Examples
 
 The [examples](/examples/) folder contains example applications for various platforms.
