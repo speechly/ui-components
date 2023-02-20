@@ -1,6 +1,6 @@
 # Speechly React UI components example
 
-This project demonstrates the use of Speechly React UI components.
+This app demonstrates the use of [Speechly React client]([/react-ui/](https://www.npmjs.com/package/@speechly/react-client)) and [Speechly React UI components](/react-ui/) with a React project.
 
 ## Getting started
 
@@ -15,7 +15,7 @@ npx degit speechly/ui-components/examples/react-ui-example my-app
 cd my-app
 ```
 
-Add the **App ID** of your Speechly application into `src/App.tsx`.
+Add the **App ID** of your Speechly application into `src/index.tsx`.
 
 ```jsx
 <SpeechProvider
