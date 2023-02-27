@@ -17,24 +17,23 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout Code
-        uses: actions/checkout@v2
-        with:
-          fetch-depth: 25
+      - name: Checkout
+        uses: actions/checkout@v3
       - name: Cache pnpm modules
-        uses: actions/cache@v2
+        uses: actions/cache@v3
         with:
           path: common/temp/pnpm-store
           key: ${{ runner.os }}-${{ hashFiles('common/config/rush/pnpm-lock.yaml') }}
           restore-keys: |
             ${{ runner.os }}-
-      - uses: pnpm/action-setup@v2.2.1
+      - uses: pnpm/action-setup@v2
         with:
           version: 6.28.0
-      - name: Setup Node
-        uses: actions/setup-node@v2.5.1
+      - name: Setup node
+        uses: actions/setup-node@v3
         with:
-          node-version: '16'
+          node-version: 16
+          registry-url: "https://registry.npmjs.org"
       - name: Check change log update
         run: node common/scripts/install-run-rush.js change --target-branch origin/main --verify
       - name: Install Dependencies
@@ -46,8 +45,8 @@ jobs:
       - name: Publish Components
         if: ${{ github.ref == 'refs/heads/main' }}
         run: |
-          git config user.name github-actions
-          git config user.email github-actions@github.com
+          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config --global user.name "GitHub Actions"
           node common/scripts/install-run-rush.js publish --apply --publish --target-branch main
         env:
           NPM_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
