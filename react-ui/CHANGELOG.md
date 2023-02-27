@@ -1,6 +1,13 @@
 # Change Log - @speechly/react-ui
 
-This log was last generated on Mon, 09 Jan 2023 15:06:08 GMT and should not be manually modified.
+This log was last generated on Mon, 27 Feb 2023 10:44:10 GMT and should not be manually modified.
+
+## 2.7.4
+Mon, 27 Feb 2023 10:44:10 GMT
+
+### Patches
+
+- Update documentation
 
 ## 2.7.3
 Mon, 09 Jan 2023 15:06:08 GMT
