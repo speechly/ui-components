@@ -1,0 +1,10 @@
+{
+  "changes": [
+    {
+      "packageName": "@speechly/browser-ui",
+      "comment": "Fix links",
+      "type": "patch"
+    }
+  ],
+  "packageName": "@speechly/browser-ui"
+}

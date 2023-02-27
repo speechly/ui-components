@@ -65,7 +65,7 @@ Include the Web Components from a CDN that mirrors [`@speechly/browser-ui`](http
 
 ## Node Usage
 
-> This example illustrates using browser-ui Web Components with a JS framework. For React development, [react-client](../react-client) and [react-ui](../react-ui) libraries offer a better developer experience.
+This example illustrates using Speechly Browser UI Components with a JS framework. For React development, [react-client](https://www.npmjs.com/package/@speechly/react-client) and [react-ui](https://www.npmjs.com/package/@speechly/react-ui) libraries offer a better developer experience.
 
 ```bash
 npm install @speechly/browser-ui
