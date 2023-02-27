@@ -33,7 +33,6 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: 16
-          registry-url: "https://registry.npmjs.org"
       - name: Check change log update
         run: node common/scripts/install-run-rush.js change --target-branch origin/main --verify
       - name: Install Dependencies
