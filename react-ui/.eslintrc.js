@@ -16,7 +16,9 @@ module.exports = {
     'tsdoc/syntax': 'error',
   },
   parserOptions: {
-    project: './tsconfig.json',
+    project: 'tsconfig.json',
+    tsconfigRootDir: __dirname,
+    sourceType: 'module',
   },
   settings: {
     react: {
