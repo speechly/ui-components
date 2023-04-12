@@ -2,6 +2,18 @@
   "name": "@speechly/react-ui",
   "entries": [
     {
+      "version": "2.7.5",
+      "tag": "@speechly/react-ui_v2.7.5",
+      "date": "Mon, 27 Mar 2023 17:09:18 GMT",
+      "comments": {
+        "patch": [
+          {
+            "comment": "Minor fixes"
+          }
+        ]
+      }
+    },
+    {
       "version": "2.7.4",
       "tag": "@speechly/react-ui_v2.7.4",
       "date": "Mon, 27 Feb 2023 13:34:20 GMT",
