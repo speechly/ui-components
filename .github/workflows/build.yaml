@@ -28,11 +28,11 @@ jobs:
             ${{ runner.os }}-
       - uses: pnpm/action-setup@v2
         with:
-          version: 6.28.0
+          version: 8.2.0
       - name: Setup node
         uses: actions/setup-node@v3
         with:
-          node-version: 16
+          node-version: 18
       - name: Check change log update
         run: node common/scripts/install-run-rush.js change --target-branch origin/main --verify
       - name: Install Dependencies
